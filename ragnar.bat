@@ -1,1 +1,1 @@
-cmd.exe /k "cd /d "c:\ragnar" & start python -m streamlit run app.py"
+cmd.exe /k "cd /d "c:\ragnar" & start python -m streamlit run app.py --server.fileWatcherType none"
